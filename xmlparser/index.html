@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <title>XML Parser</title>
+  </head>
+  <body>
+    <h1>Upload an XML File</h1>
+    <form id="xml-form" enctype="multipart/form-data">
+      <input type="file" name="xml-file" id="xml-file" />
+      <button type="submit">Upload & Parse</button>
+    </form>
+    <div id="result" style="display: none">
+      <h2>Parsed XML Data</h2>
+      <div id="xml-content"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
