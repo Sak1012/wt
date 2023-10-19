@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <foodItem>
+        <name>Spaghetti Carbonara</name>
+        <price>12.99</price>
+        <description>Classic Italian pasta dish with creamy bacon and egg sauce.</description>
+    </foodItem>
+    <foodItem>
+        <name>Grilled Salmon</name>
+        <price>18.99</price>
+        <description>Freshly grilled salmon served with a lemon and dill sauce.</description>
+    </foodItem>
+    <foodItem>
+        <name>Caesar Salad</name>
+        <price>7.99</price>
+        <description>Fresh romaine lettuce, croutons, and Caesar dressing.</description>
+    </foodItem>
+    <foodItem>
+        <name>Margherita Pizza</name>
+        <price>10.99</price>
+        <description>Traditional Italian pizza with tomato, mozzarella, and basil.</description>
+    </foodItem>
+</menu>
