@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aviationInformation xmlns="http://www.example.com/aviation">
+    <airlines>
+        <airline>
+            <code>AA</code>
+            <name>American Airlines</name>
+            <fleet>
+                <aircraft>
+                    <type>Boeing 737</type>
+                    <registration>N12345</registration>
+                    <capacity>149</capacity>
+                </aircraft>
+                <aircraft>
+                    <type>Airbus A320</type>
+                    <registration>N67890</registration>
+                    <capacity>180</capacity>
+                </aircraft>
+            </fleet>
+        </airline>
+        <airline>
+            <code>DL</code>
+            <name>Delta Air Lines</name>
+            <fleet>
+                <aircraft>
+                    <type>Boeing 757</type>
+                    <registration>N54321</registration>
+                    <capacity>199</capacity>
+                </aircraft>
+            </fleet>
+        </airline>
+    </airlines>
+    <airports>
+        <airport>
+            <code>JFK</code>
+            <name>John F. Kennedy International Airport</name>
+            <location>
+                <latitude>40.6413</latitude>
+                <longitude>-73.7781</longitude>
+            </location>
+        </airport>
+        <airport>
+            <code>LAX</code>
+            <name>Los Angeles International Airport</name>
+            <location>
+                <latitude>33.9416</latitude>
+                <longitude>-118.4085</longitude>
+            </location>
+        </airport>
+    </airports>
+</aviationInformation>
+
