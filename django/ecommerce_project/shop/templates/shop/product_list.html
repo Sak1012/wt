@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Product Listings</title>
+  </head>
+  <body>
+    <h1>Product Listings</h1>
+    <ul>
+      {% for product in products %}
+      <li>
+        {{ product.title }} - {{ product.price }} USD
+        <a href="{% url 'add_to_cart' product.id %}">Add to Cart</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>

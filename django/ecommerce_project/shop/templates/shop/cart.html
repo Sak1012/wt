@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Shopping Cart</title>
+  </head>
+  <body>
+    <h1>Shopping Cart</h1>
+    <ul>
+      {% for item in cart_items %}
+      <li>
+        {{ item.product.title }} - {{ item.product.price }} USD x {{
+        item.quantity }}
+      </li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
